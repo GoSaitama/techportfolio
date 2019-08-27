@@ -64,8 +64,8 @@ li a:hover {
 
 
 .introduction {
-    width: 400px;
-    height: 70px;
+    width: 61%;
+    height: 1%;
     shape-outside: inset(20px 50px 10px 0 round 50px);
     background-color: #4a86e9;
     border: 2px solid black;
@@ -74,18 +74,20 @@ li a:hover {
     padding: 5%;
     margin-top: 5%;
     transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
-    transition-duration: 2s;
+    transition-duration: 0.63s;
 }
 
 .introduction:hover p{
+    transition-delay: 0.3s;
     opacity: 1;
 }
 
-.introduction:hover shape-outside{
-    height: 350px;
+.introduction:hover{
+    height: 15%;
 }
 
 p{
+
     opacity:0;
 }
 
