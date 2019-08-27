@@ -1,0 +1,149 @@
+html {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 1.5em;
+}
+
+#dmbody {
+    background-image: linear-gradient(#ede3e4, #e4dee4)
+}
+
+#idbody {
+    background-image: url(pawel-czerwinski-1424179-unsplash.jpg);
+}
+
+#ambody {
+    background-image: repeating-linear-gradient(45deg, #ede3e4, #e4dee4 10.3%)
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.idheading {
+    background-image: linear-gradient(#274690, #302b27);
+    background-size: auto;
+    border-bottom: 1px #302b27;
+    color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.idnavigation {
+    border-top: 1px #302b27;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%
+}
+
+ol {
+    list-style-type: circle;
+    margin: 0;
+    padding: auto;
+    width: auto;
+    background-image: linear-gradient(#302b27, #274690);
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    padding: cover;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+    color: #274690;
+}
+
+
+.introduction {
+    width: 400px;
+    height: 70px;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+    background-color: #4a86e9;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5%;
+    margin-top: 5%;
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition-duration: 2s;
+}
+
+.introduction:hover p{
+    opacity: 1;
+}
+
+.introduction:hover shape-outside{
+    height: 350px;
+}
+
+p{
+    opacity:0;
+}
+
+.amheading {
+    font-family: 'saira Stencil One', cursive;
+    font-size: 0.7em;
+    color: whitesmoke;
+    width: 100%;
+    height: 20%;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+    background-image: radial-gradient(#afa9a5,#92898a);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    margin: 3%;
+    text-align: inherit;
+    transition: opacity 1s;
+    z-index: -1;
+}
+
+.amheading:active {
+    position: static;
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition-duration: 0.5s;
+    opacity:0.7;
+}
+
+#video1 {
+    float: top;
+    margin-bottom: 0em;
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    display: inline-block;
+    background-attachment: scroll;
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition:
+}
+
+#video1:hover{
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+    width:100%;
+    height: 20%;
+    
+}
+#video2 {
+    float: bottom;
+    margin-bottom: 1em;
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    display: inline-block;
+    background-attachment: scroll;
+}
