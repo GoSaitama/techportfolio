@@ -1,0 +1,299 @@
+html {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Saira Stencil One', cursive;
+}
+
+#dmbody {
+    background-image: url(Image%20Background/background%20image%202.png);
+}
+
+#idbody {
+    font-size: 100%;
+    background-image: url(Image%20Collage/original%20image%203.jpg)
+}
+
+#ambody {
+    text-align: left;
+    background-image: repeating-linear-gradient(45deg, #ede3e4, #e4dee4 10.3%)
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.idheading {
+    font-size: 150%;
+    background-image: linear-gradient(#274690, #302b27);
+    background-size: auto;
+    border-bottom: 1px #302b27;
+    color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.idnavigation {
+    font-size: 150%;
+    border-top: 1px #302b27;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%
+}
+
+#dmnavigation {
+    list-style-type: circle;
+    margin: 0;
+    padding: auto;
+    width: auto;
+    background-image: linear-gradient(#302b27, #274690);
+}
+
+#dmnav a {
+    display: block;
+    color: whitesmoke;
+    padding: cover;
+    text-decoration: none;
+}
+
+#dmnav a:hover {
+    background-color: whitesmoke;
+    color: #274690;
+}
+
+
+.introduction {
+    font-size: 150%;
+    width: 61%;
+    height: 5%;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+    background-color: #4a86e9;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% auto;
+    padding: 5%;
+    margin-top: 5%;
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition-duration: 0.63s;
+}
+
+.introduction:hover #hiddentext {
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+
+.introduction:hover {
+    height: 12%;
+}
+
+#hiddentext {
+    opacity: 0;
+}
+
+#highlight {
+    font-size: 200%;
+    color: whitesmoke;
+    text-align: center;
+    margin-left;
+    10%;
+}
+
+.AR {
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    shape-outside: inset(20px 20px 10px 0 round 20px);
+    border: 2px solid black;
+    border-radius: 20px;
+    align-content: center;
+    background-image: linear-gradient(#4a86e9, white)
+}
+
+.amheading {
+    font-family: 'saira Stencil One', cursive;
+    color: whitesmoke;
+    width: 100%;
+    height: 20%;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+    background-image: radial-gradient(#afa9a5, #92898a);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% auto;
+    text-align: inherit;
+    transition: opacity 0.5s;
+}
+
+.amheading:hover #text2 {
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+
+.amheading:hover #text1 {
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
+#text1,
+#text2 {
+    position: absolute;
+}
+
+#text2 {
+    z-index: 2;
+    opacity: 0;
+    font-size: 2em;
+    text-align: center;
+    padding-left: auto;
+    padding-top: 1.5%;
+    padding-right: 5%;
+}
+
+#text1 {
+    font-size: 3em;
+    z-index: 1;
+    text-align: center;
+    padding-left: 35%
+}
+
+
+#video1 {
+    float: top;
+    margin-bottom: 0em;
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    display: inline-block;
+    background-attachment: scroll;
+    transition-timing-function: cubic-bezier(0.72, 0.04, 0.24, 0.96);
+    transition:
+}
+
+#video1 {
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+#video2 {
+    float: bottom;
+    margin-bottom: 1em;
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    display: inline-block;
+    height: 100%
+}
+
+.selfie {
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: radial-gradient(black, dimgrey)
+}
+
+.dmheading {
+    shape-outside: inset(20px 50px 20px 0 round 50px);
+    border: 1px black solid;
+    border-radius: 20px;
+    background-image: url(Image%20Background/background1.png);
+    color: whitesmoke;
+    font-size: 3em;
+    text-align: center;
+}
+
+.selfieheading {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.selfie1 {
+    padding-left: 18%
+}
+
+#completeselfie {
+    height: 267px;
+    padding-left: 35%;
+}
+
+.psheading {
+    color: whitesmoke;
+    font-size: 1.5em;
+
+}
+
+#oimg1 {
+    height: 80%;
+    width: 33%;
+}
+
+#oimg2 {
+    height: 80%;
+    width: 33%;
+}
+
+#oimg3 {
+    height: 80%;
+    width: 33%;
+}
+
+#finalcollage {
+    margin-left: 30%;
+    height: 120%;
+    width: inherit;
+}
+
+.nav2 {
+    list-style-type: circle;
+    margin: 1em;
+    padding: 0em;
+    width: 100%;
+    background-image: radial-gradient(aqua, black);
+}
+
+.nav2 a {
+    display: block;
+    color: whitesmoke;
+    padding: cover;
+    text-decoration: none;
+}
+
+.nav2 a:hover {
+    background-image: radial-gradient(black, aqua)
+}
+
+.nav1 {
+    list-style-type: circle;
+    margin: 1em;
+    padding: 0em;
+    width: 100%;
+    background-image: radial-gradient(#afa9a5, #92898a);
+}
+
+.nav1 a {
+    display: block;
+    color: whitesmoke;
+    padding: cover;
+    text-decoration: none;
+}
+
+.nav1 a:hover {
+    background-image: radial-gradient(#92898a, #afa9a5)
+}
