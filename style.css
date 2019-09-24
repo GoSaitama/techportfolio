@@ -5,12 +5,12 @@ html {
 }
 
 #dmbody {
-    background-image: url(Image%20Background/background%20image%202.png);
+    background-image: url(imagebackground/background%20image%202.png);
 }
 
 #idbody {
     font-size: 100%;
-    background-image: url(Image%20Collage/original%20image%203.jpg)
+    background-image: url(imagecollage/original%20image%203.jpg)
 }
 
 #ambody {
@@ -211,7 +211,7 @@ div {
     shape-outside: inset(20px 50px 20px 0 round 50px);
     border: 1px black solid;
     border-radius: 20px;
-    background-image: url(Image%20Background/background1.png);
+    background-image: url(imagebackground/background1.png);
     color: whitesmoke;
     font-size: 3em;
     text-align: center;
